@@ -12,4 +12,4 @@ suggested_activity = json_data.json()
 st.write(suggested_activity)
 
 st.header('Suggested activity')
-st.write('**Suggested activity: **', suggested_activity['activity'])
+st.write('Suggested activity: ', `suggested_activity['activity']`)
