@@ -15,4 +15,4 @@ st.write(suggested_activity)
 
 st.header('Suggested activity')
 st.info(suggested_activity['activity'])
-st.metric('Number of Participants', selected_participants)
+st.metric(label='Number of Participants', value=selected_participants, delta='')
