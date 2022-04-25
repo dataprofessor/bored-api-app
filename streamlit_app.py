@@ -9,7 +9,7 @@ suggested_activity_url = f'http://www.boredapi.com/api/activity?type={selected_t
 json_data = requests.get(suggested_activity_url)
 suggested_activity = json_data.json()
 
-c1, c2 = sst.columns(2)
+c1, c2 = st.columns(2)
 with c1:
   with st.expander(''):
     st.write('Are you bored? The **Bored API app** provides suggestions on activities that you can do. This app is powered by the Bored API.')
