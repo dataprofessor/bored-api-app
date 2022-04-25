@@ -18,4 +18,6 @@ col1, col2, col3 = st.columns(3)
 with col1:
   st.metric(label='Number of Participants', value=suggested_activity['participants'], delta='')
 with col2:
-  st.metric(label='Type of Activity', value=selected_type.capitalize(), delta='')
+  st.metric(label='Type of Activity', value=suggested_activity['activity'].capitalize(), delta='')
+with col3:
+  st.metric(label='Price', value=suggested_activity['price'], delta='')
