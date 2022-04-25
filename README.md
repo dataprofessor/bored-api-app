@@ -1,6 +1,6 @@
-# Bored-API app
+# Bored API app
 
-The Bored-API app demonstrates the usage of APIs from within a Streamlit app.
+The Bored API app demonstrates the usage of APIs from within a Streamlit app.
 
 ## Demo app
 
