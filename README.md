@@ -1,13 +1,13 @@
-# st.template
+# Bored-API app
 
-`st.template` allows writing text and arguments to the Streamlit app.
+The Bored-API app demonstrates the usage of APIs from within a Streamlit app.
 
 ## Demo app
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/dataprofessor/st.template/)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/dataprofessor/bored-api-app/)
 
 ## Code
-Here's how to use `st.write`:
+Here's how to implement the Bored-API app:
 ```python
 import streamlit as st
 
