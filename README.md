@@ -1,4 +1,4 @@
-# Bored API app
+# How to use API by building the Bored API app
 
 The Bored API app suggests fun things for you to do when you are bored!
 
