@@ -5,7 +5,7 @@ st.title('🏀 Bored API app')
 
 st.sidebar.header('Input')
 selected_type = st.sidebar.selectbox('Select an activity type', ["education", "recreational", "social", "diy", "charity", "cooking", "relaxation", "music", "busywork"])
-selected_participants = st.sidebar.slider('Select number of participants', 0, 10, 1)
+selected_participants = st.sidebar.slider('Select number of participants', 1, 10, 1)
 
 suggested_activity_url = f'http://www.boredapi.com/api/activity?type={selected_type}?participants={selected_participants}'
 json_data = requests.get(suggested_activity_url)
