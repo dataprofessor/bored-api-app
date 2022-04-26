@@ -1,6 +1,6 @@
 # Bored API app
 
-The Bored API app suggests fun things for you to do when you're bored!
+The Bored API app suggests fun things for you to do when you are bored!
 
 Technically, it also demonstrates the usage of APIs from within a Streamlit app.
 
@@ -26,7 +26,7 @@ suggested_activity = json_data.json()
 c1, c2 = st.columns(2)
 with c1:
   with st.expander('About this app'):
-    st.write('Are you bored? The **Bored API app** provides suggestions on activities that you can do when you're bored. This app is powered by the Bored API.')
+    st.write('Are you bored? The **Bored API app** provides suggestions on activities that you can do when you are bored. This app is powered by the Bored API.')
 with c2:
   with st.expander('JSON data'):
     st.write(suggested_activity)
